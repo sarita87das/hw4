@@ -1,0 +1,68 @@
+                                       PSEUDOCODE
+  Create a timer attached to a button with a starting value of zero.
+  when timer is pressed start a reversing countdown.
+  Create a zero for countdown.
+  When countdown starts, quiz starts.
+  Start quiz will be an appended page
+  Append the questions: choices
+  When user select the right answer, text content "correct"
+  When user select the right answer, text content "correct"
+  Final score will keep track of how many user has answered correct.
+  Left overtime will be deducted by final score
+  Final Score Appended page
+  Captures local storage
+  Travels to another HTML
+  Retrieved highscores
+
+                                       SCRIPT CODE
+  Questions contained in an array variable with objects
+  Variable declaration area
+  An event listener (onclick) that generates time interval
+  A function to render the questions and choices on the page using a for loop
+  An event listener on all list choices
+  A comparison statement to compare correct answers to choices
+  An appended page showing the final stats of the individual user with input area for initials, captures local storage
+  Highscores retreived local storage
+   
+
+                                       MEDIA QUERIES
+  max-width: 980px
+Adjusts body and container width
+  max-width: 786px
+Adjusts body and container width
+Adjusts buttons
+  max-width: 640px
+Adjusts body and container width
+Adjusts buttons to be centered and stacked
+                                         FEATURES
+                                         
+Two HTML Pages
+      Index.html
+         Contains landing page to start timer
+         Appends two new pages
+Highscores * Retreives local data from previous page
+One CSS Page
+           Styles.css
+           Contains centering and styling for html list features
+           Contains media queries
+Two Javascript Page * Contains: * Variables, including arrays with object * Event listeners * if/else if statements * For Loops * Functions * Local Storage set and get  
+                                      PROJECT FEATURE 
+A Start Quiz button
+This starts a timer for the user, each question averages 15 seconds each for a total time of 75 seconds + 1.
+An appended HTML page that features questions, and multiple choice answers
+If questions are answered incorrectly, 5 seconds are deducted off remaining time
+Answers are recording using an event listener, "click" and tracks correct answers
+An appended HTML page that features:
+Final score which is calculated using time remaining
+A Summary of how many questions answered correctly
+Input area to record initials
+A Submit button
+Submit buttom saves initials and score to local storage
+A Highscores HTML
+This a list summary of intials and final scores
+Clear button resets the page and local storage
+Go back button travels to the start of the quiz
+                                          SUMMARY     
+HTML and CSS and Javascript documents create a quiz with multiple choice questions with Javascript trivia
+This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
+This project utilizes the use of appending HTML pages                                                                      
