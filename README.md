@@ -26,3 +26,5 @@ CODE QUIZ
 # Deployed Link
 https://sarita87das.github.io/hw4/
 
+## Demonstration of project 
+![demo](codequizdemo.gif)
