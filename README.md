@@ -2,9 +2,12 @@
 CODE QUIZ
 
 # Two HTML Pages :
- Index.html * Contains landing page to start timer *         
+ Index.html 
+ * Contains landing page to start timer        
  Appends two new pages 
- # Highscores * Retreives local data from previous page
+
+ # Highscores :
+  Retreives local data from previous page
  
  # One CSS Page :
  Styles.css        
@@ -18,4 +21,8 @@ CODE QUIZ
 * if/else if statements 
 * For Loops 
 * Functions 
-* Local Storage set and get  
+* Local Storage set and get 
+
+# Deployed Link
+https://sarita87das.github.io/hw4/
+
